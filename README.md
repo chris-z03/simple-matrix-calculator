@@ -1,4 +1,4 @@
-# simple-matrix-calculatorMATH133 Calculator by Christian Zhao
+# simple-matrix-calculator
 
 
 This calculator has 5 instructions:
