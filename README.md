@@ -1,5 +1,6 @@
 # simple-matrix-calculatorMATH133 Calculator by Christian Zhao
 
+
 This calculator has 5 instructions:
 calculate('determinant', 'dec'/'frac', decimal place/max denominator)
 calculate('inverse', 'dec'/'frac', decimal place/max denominator)
@@ -17,7 +18,7 @@ Do not modify the first line in CALCULATOR.py
 
 How to use the calculator:
 1. Enter your input in the text file Input.txt and save it
-2. Use one or more of the above five instructions in CALCULATOR
+2. Use one or more of the above five instructions in CALCULATOR.py
 
 *If you want to calculate the determinant, the inverse, or the 
 RREF of a matrix, open the text file named Input, and enter in
