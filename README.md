@@ -25,9 +25,9 @@ How to use the calculator:
 RREF of a matrix, open the text file named Input, and enter in
 your matrix in the following format:
 
-1,3,4,5<br />
-0,1,2,5<br />
-4,3,1,6<br />
+1,3,4<br />
+0,1,2<br />
+4,3,1<br />
 
 , and use one of the first three instructions above.
 
@@ -36,9 +36,9 @@ Ax = y, enter y as the last column after A.
 For example, if you want to solve for x with the above matrix
 as A, and your y vector is [1,2,3], you should enter:
 
-1,3,4,5,1<br />
-0,1,2,5,2<br />
-4,3,1,6,3<br />
+1,3,4,1<br />
+0,1,2,2<br />
+4,3,1,3<br />
 
 and use the instruction calculate('rref') to calculate.
 The last column of the resulting matrix is the solution.
@@ -57,7 +57,7 @@ following format:
 The last line is your wanted degree.
 This one is to calculate the equation of the polynomial with 
 degree 4 that best fits the points (1,2),(2,3),(3,3),(4,4).
-With calculate('curve fitting'), you should get:
+With calculate('curve fitting','dec'), you should get:
 y = -0.0055x^4 + 0.0549x^3 + -0.6923x^2 + 2.7747x + -0.1319
 
 *You can choose whether numbers are displayed as fractions
