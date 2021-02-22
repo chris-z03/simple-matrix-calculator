@@ -22,7 +22,7 @@ def take_input(f):
     points = content[:-1]
     degree = content[-1]
     
-    return points, degree[0]
+    return points, int(degree[0])
 
 
 def pr_matrix(result, mode, limit):
