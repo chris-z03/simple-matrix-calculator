@@ -2,9 +2,13 @@
 
 
 This calculator has 5 instructions:
+
 calculate('determinant', 'dec'/'frac', decimal place/max denominator)
+
 calculate('inverse', 'dec'/'frac', decimal place/max denominator)
+
 calculate('rref', 'dec'/'frac', decimal place/max denominator)
+
 calculate('curve fitting', 'dec'/'frac', decimal place/max 
 denominator)
 
