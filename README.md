@@ -1,7 +1,7 @@
 # simple-matrix-calculator
 
 
-This calculator has 5 instructions:
+This calculator has 4 instructions:
 
 calculate('determinant', 'dec'/'frac', decimal place/max denominator)<br />
 calculate('inverse', 'dec'/'frac', decimal place/max denominator)<br />
