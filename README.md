@@ -3,12 +3,9 @@
 
 This calculator has 5 instructions:
 
-calculate('determinant', 'dec'/'frac', decimal place/max denominator)
-
-calculate('inverse', 'dec'/'frac', decimal place/max denominator)
-
-calculate('rref', 'dec'/'frac', decimal place/max denominator)
-
+calculate('determinant', 'dec'/'frac', decimal place/max denominator)<br />
+calculate('inverse', 'dec'/'frac', decimal place/max denominator)<br />
+calculate('rref', 'dec'/'frac', decimal place/max denominator)<br />
 calculate('curve fitting', 'dec'/'frac', decimal place/max 
 denominator)
 
@@ -28,9 +25,9 @@ How to use the calculator:
 RREF of a matrix, open the text file named Input, and enter in
 your matrix in the following format:
 
-1,3,4,5
-0,1,2,5
-4,3,1,6
+1,3,4,5<br />
+0,1,2,5<br />
+4,3,1,6<br />
 
 , and use one of the first three instructions above.
 
@@ -39,9 +36,9 @@ Ax = y, enter y as the last column after A.
 For example, if you want to solve for x with the above matrix
 as A, and your y vector is [1,2,3], you should enter:
 
-1,3,4,5,1
-0,1,2,5,2
-4,3,1,6,3
+1,3,4,5,1<br />
+0,1,2,5,2<br />
+4,3,1,6,3<br />
 
 and use the instruction calculate('rref') to calculate.
 The last column of the resulting matrix is the solution.
@@ -51,10 +48,10 @@ of any number of points you have, with any degree you want,
 enter the coordinates of the points and degree in the 
 following format:
 
-1,2
-2,3
-3,3
-4,2
+1,2<br />
+2,3<br />
+3,3<br />
+4,2<br />
 4
 
 The last line is your wanted degree.
@@ -71,6 +68,6 @@ these numbers, which is set by default 4.
 This functionality does not apply to the polynomial instruction.
 
 examples:
-calculate('curve fitting', 'frac')
-calculate('curve fitting', 'frac', 100)
+calculate('curve fitting', 'frac')<br />
+calculate('curve fitting', 'frac', 100)<br />
 calculate('inverse', 'dec', 5)
